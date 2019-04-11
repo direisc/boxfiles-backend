@@ -15,4 +15,8 @@ routes.post(
   FileController.store
 );
 
+routes.get('/', (req, res) => {
+  return res.send('Sai daqui rapaz!');
+});
+
 module.exports = routes;
